@@ -95,8 +95,8 @@ if __name__ == "__main__":
     entry1 = tkinter.Entry(window)
     entry.place(x=80, y=30)
     entry1.place(x=80, y=60)
-    label2.place(x=40, y=30)
-    label1.place(x=40, y=60)
+    label1.place(x=40, y=30)
+    label2.place(x=40, y=60)
     button1 = tkinter.Button(window, text='翻译', command=lambda : main(entry.get()))
     button1.place(x=75, y=90)
 
